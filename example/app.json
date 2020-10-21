@@ -1,0 +1,22 @@
+{
+  "name": "@brigad/use-animated-value-example",
+  "displayName": "UseAnimatedValue Example",
+  "expo": {
+    "name": "@brigad/use-animated-value-example",
+    "slug": "brigad-use-animated-value-example",
+    "description": "Example app for @brigad/use-animated-value",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
