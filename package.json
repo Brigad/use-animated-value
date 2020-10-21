@@ -1,7 +1,7 @@
 {
   "name": "@brigad/use-animated-value",
-  "version": "0.1.0",
-  "description": "One liner hook to get an Animated.Value from a value.",
+  "version": "1.0.0",
+  "description": "One line hook to get an Animated.Value from a value.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",
@@ -35,7 +35,7 @@
     "android"
   ],
   "repository": "https://github.com/brigad/use-animated-value",
-  "author": "Thibault Malbranche <thibault@brigad.co> (https://github.com/brigad/use-animated-value)",
+  "author": "Thibault Malbranche <thibault@brigad.co> (https://github.com/titozzz)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/brigad/use-animated-value/issues"
