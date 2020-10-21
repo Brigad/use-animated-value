@@ -1,3 +1,4 @@
+/* eslint-disable react-native/no-inline-styles */
 import React, { useState } from 'react';
 import { StyleSheet, View, Animated, Button, Easing, Text } from 'react-native';
 import useAnimatedValue from '@brigad/use-animated-value';

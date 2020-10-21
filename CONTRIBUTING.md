@@ -43,16 +43,6 @@ To fix formatting errors, run the following:
 yarn lint --fix
 ```
 
-Remember to add tests for your change if possible. Run the unit tests by:
-
-```sh
-yarn test
-```
-
-To edit the Objective-C files, open `example/ios/UseAnimatedValueExample.xcworkspace` in XCode and find the source files at `Pods > Development Pods > @brigad/use-animated-value`.
-
-To edit the Kotlin files, open `example/android` in Android studio and find the source files at `brigaduseanimatedvalue` under `Android`.
-
 ### Commit message convention
 
 We follow the [conventional commits specification](https://www.conventionalcommits.org/en) for our commit messages:

@@ -7,15 +7,34 @@ One liner hook to get an Animated.Value from a value.
 ```sh
 npm install @brigad/use-animated-value
 ```
+or
+```sh
+yarn add @brigad/use-animated-value
+```
 
 ## Usage
 
-```js
-import UseAnimatedValue from "@brigad/use-animated-value";
+```jsx
+import useAnimatedValue from "@brigad/use-animated-value";
 
-// ...
+const BoxWithAnimatedBackgroundColor = ({color}) => {
+    const animatedColor = useAnimatedValue(color);
 
-const result = await UseAnimatedValue.multiply(3, 7);
+    return <Animated.View style={{backgroundColor: animatedColor}} />
+}
+```
+
+## API
+
+```tsx
+type Options<T> = {
+    useNativeDriver?: boolean;
+    duration?: number;
+    easing?: ((value: number) => number) | undefined;
+    onAnimateEnd?: (newValue: T, finished: boolean) => void;
+};
+
+const value = useAnimatedValue<T>(value: T, options: Options<T>);
 ```
 
 ## Contributing

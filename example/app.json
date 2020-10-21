@@ -1,6 +1,6 @@
 {
   "name": "@brigad/use-animated-value-example",
-  "displayName": "UseAnimatedValue Example",
+  "displayName": "useAnimatedValue Example",
   "expo": {
     "name": "@brigad/use-animated-value-example",
     "slug": "brigad-use-animated-value-example",
