@@ -59,7 +59,7 @@ export const useAnimatedValue = <T extends string | number>(
   );
 
   useLayoutEffect(() => {
-    if (prevProp !== null && value !== prevProp) {
+    if (prevProp !== undefined && value !== prevProp) {
       animate(value);
     }
   }, [prevProp, animate, value]);
